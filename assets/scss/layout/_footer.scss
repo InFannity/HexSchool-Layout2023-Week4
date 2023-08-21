@@ -1,4 +1,45 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
+footer{
+  background: #AA0601;
+  color: white;
+  a{
+    color: white;
+  }
+  .footer-upper{
+    //smargin-top: 48px;
+    padding: 48px 0px 32px;
+    .menu-area{
+      gap: 48px;
+      a{
+        display: inline-block;
+        padding: 12px 0;
+      }
+    }
+    .icon-area{
+      gap: 32px;
+      img{
+        display: inline-block;
+        width: 48px;
+      }
+    }
+  }
+
+  .footer-mid-contact{
+    padding-bottom: 32px;
+    border-bottom: 1px solid white;
+    span{
+      margin-right: 20px;
+      vertical-align: middle;
+    }
+  }
+
+  .footer-bottom{
+    padding: 32px 0;
+    ul{
+      gap: 48px
+    }
+  }
+
+
+
+
 }

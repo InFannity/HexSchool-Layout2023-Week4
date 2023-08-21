@@ -1,4 +1,17 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+header{
+  background: #AA0601;
+  .logo{
+    img{
+      width: 80px;
+    }
+  }
+  .menu{
+    gap: 64px;
+    a{
+      display: inline-block;
+      padding: 25px 0 19px;
+      color: white;
+    }
+  }
 }
+
