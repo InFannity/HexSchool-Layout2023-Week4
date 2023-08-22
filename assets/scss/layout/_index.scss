@@ -8,6 +8,7 @@ h1{
 
 h2{
     color: #650300;
+    padding: 80px 0 48px;
 }
 
 .homepage-bg-top{
@@ -21,7 +22,7 @@ h2{
 }
 
 .homepage-slogan{
-    padding: 80px 0 80px;
+    padding-bottom: 80px;
     ul{
         gap: 24px;
         text-align: center;
@@ -43,9 +44,6 @@ h2{
 }
 
 .homepage-classical{
-    h2{
-        padding: 80px 0 48px;
-    }
     .classical-card{
         gap: 24px;
         margin-bottom: 80px;
@@ -67,9 +65,6 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
 
-    h2{
-        padding: 80px 0 48px;
-    }
     ul{
         padding-bottom: 80px;
         li{
@@ -87,9 +82,6 @@ h2{
 }
 
 .homepage-recommand{
-    h2{
-        padding: 80px 0 48px;
-    }
     .recommand-card{
         gap: 24px;
         margin-bottom: 80px;
@@ -104,8 +96,41 @@ h2{
                 p{
                     color: black;
                 }
-                
+                .recommand-content{
+                    min-height: 72px;
+                    margin-bottom: 48px;
+                }
+                .recomand-date{
+                    font-size: 14px;
+                    color: #707070;
+                }
             }
         }
+    }
+}
+
+.homepage-contact{
+    max-width: 666px;
+    .form-text {
+        width: 100%;
+        padding: 6px 12px;
+        margin-top: 8px;
+        background: #FBF2F2;
+        border: 1px solid black;
+        line-height: 1.5;
+    }
+    .form-text-opinion{
+        height: 136px;
+    }
+    .mouse-pt {
+        cursor: pointer;
+    }
+    .form-index-checkbox{
+        width: 21px;
+        height: 21px;
+        margin-right: 4px;
+    }
+    .btn-R{
+        padding: 16px 176px;
     }
 }
