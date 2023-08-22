@@ -1,0 +1,111 @@
+p{
+    color: #650300;
+}
+
+h1{
+    color: #650300;
+}
+
+h2{
+    color: #650300;
+}
+
+.homepage-bg-top{
+    background-image:url("https://github.com/InFannity/HexSchool-Week4/blob/main/assets/images/home-header.png?raw=true");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .homepage-top{
+        padding: 296px 0 296px;
+    }
+}
+
+.homepage-slogan{
+    padding: 80px 0 80px;
+    ul{
+        gap: 24px;
+        text-align: center;
+        align-items: flex-start;
+        .slogan-icon{
+            padding: 32px 0 24px;
+        }
+
+        li{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width:306px;
+            img{
+                width: 83px;
+            }
+        }
+    }
+}
+
+.homepage-classical{
+    h2{
+        padding: 80px 0 48px;
+    }
+    .classical-card{
+        gap: 24px;
+        margin-bottom: 80px;
+        li{
+            text-align: center;
+            p{
+                color: #AA0601;
+                font: italic normal 900 48px/72px Roboto;
+                font-size: 48px;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.homepage-brand{
+    background-image:url("https://github.com/InFannity/HexSchool-Week4/blob/main/assets/images/index-bg.png?raw=true");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2{
+        padding: 80px 0 48px;
+    }
+    ul{
+        padding-bottom: 80px;
+        li{
+            text-align: center;
+            background: #fff;
+            p{
+                padding: 8px 0 8px;
+                color: #AA0601;
+                font: italic normal 900 48px/72px Roboto;
+                font-size: 48px;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.homepage-recommand{
+    h2{
+        padding: 80px 0 48px;
+    }
+    .recommand-card{
+        gap: 24px;
+        margin-bottom: 80px;
+
+        li{
+            box-shadow: 0px 2px 6px #00000029;
+            border: 1px solid #DEE2E6;
+            border-radius: 4px;
+            opacity: 1;
+            .text-area{
+                margin: 16px;
+                p{
+                    color: black;
+                }
+                
+            }
+        }
+    }
+}

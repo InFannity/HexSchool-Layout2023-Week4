@@ -4,7 +4,34 @@
 }
 
 .flex-align-center{
+    display: flex;
     align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-skin{
+    background-color: #FBF2F2;
+}
+
+.font-color-brown{
+    color: #650300;
+}
+
+.font-color-black{
+    color: #000;
+}
+
+.font-color-white{
+    color: #fff;
 }
 
 .font-size-14{
@@ -15,10 +42,48 @@
     font-size: 20px;
 }
 
+.font-size-24{
+    font-size: 20px;
+}
+
 .font-size-36{
     font-size: 36px;
 }
 
-.margin-btm{
+.font-size-48{
+    font-size: 48px;
+}
+
+.font-size-64{
+    font-size: 64px;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.margin-btm-8{
     margin-bottom: 8px;
+}
+
+.margin-top-80{
+    margin-top: 80px;
+}
+
+.margin-l-auto{
+    margin-left: auto;
+}
+
+.text-align-start{
+    text-align: start;
+}
+
+.btn-R{
+    color: white;
+    background: #AA0601;
+    margin-top: 4px;
+    padding: 6px 12px 6px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
