@@ -11,13 +11,18 @@ h2{
     padding: 80px 0 48px;
 }
 
+h3{
+    color: #650300;
+}
+
 .homepage-bg-top{
     background-image:url("https://github.com/InFannity/HexSchool-Week4/blob/main/assets/images/home-header.png?raw=true");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     .homepage-top{
-        padding: 296px 0 296px;
+        padding-top: 296px;
+        padding-bottom: 296px;
     }
 }
 
@@ -53,7 +58,7 @@ h2{
                 color: #AA0601;
                 font: italic normal 900 48px/72px Roboto;
                 font-size: 48px;
-                opacity: 1;
+                font-size: clamp(24px, 4vw, 48px);
             }
         }
     }
@@ -75,7 +80,7 @@ h2{
                 color: #AA0601;
                 font: italic normal 900 48px/72px Roboto;
                 font-size: 48px;
-                opacity: 1;
+                //font-size: clamp(24px, 4vw, 48px);
             }
         }
     }
@@ -132,5 +137,66 @@ h2{
     }
     .btn-R{
         padding: 16px 176px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .homepage-bg-top{
+        background-image:url("https://github.com/InFannity/HexSchool-Week4/blob/main/assets/images/home-header-sm.png?raw=true");
+    }
+
+    
+    .homepage-slogan{
+        ul{
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li{
+                width:48%;
+            }
+        }
+    }
+
+    .homepage-classical{
+        .classical-card{
+            flex-direction: column;
+            img {
+                width: 336px;  
+            }
+        }
+    }
+
+    .homepage-brand{
+        background-image:url("https://github.com/InFannity/HexSchool-Week4/blob/main/assets/images/index-bg-sm.png?raw=true");
+    
+        ul{
+            flex-direction: column;
+            gap:24px;
+            li{
+                width:100%;
+            }
+        }
+    }
+
+    .homepage-recommand{
+        .recommand-card{
+            gap: 24px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li{
+                width:48%;
+            }
+        }
+    }
+
+    .homepage-contact{
+        max-width: 576px;
+        padding: 0px;
+        .contact-memo{
+            font-size: 16px;
+        }
+        .btn-R{
+            padding: 16px 136px;
+        }
     }
 }

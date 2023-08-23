@@ -28,6 +28,7 @@ footer{
     border-bottom: 1px solid white;
     span{
       margin-right: 20px;
+      line-height: 1.5;
       vertical-align: middle;
     }
   }
@@ -38,8 +39,22 @@ footer{
       gap: 48px
     }
   }
+}
 
-
-
-
+@media (max-width: 768px) {
+  footer{
+    .homepage-bg-top{
+        background-image:url("https://github.com/InFannity/HexSchool-Week4/blob/main/assets/images/home-header-sm.png?raw=true");
+    }
+    .footer-upper{
+      padding-bottom: 24px;
+      .icon-area{
+        gap: 16px;
+        img{
+          display: inline-block;
+          width: 40px;
+        }
+      }
+    }
+  }
 }
