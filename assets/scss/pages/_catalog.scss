@@ -1,0 +1,15 @@
+.option-button{
+    li{
+        width: 35%;
+        a{  
+            border: 1px solid #DCDCDC;
+            display: block;
+            text-align: center;
+            padding: 14px 0;
+            color: #000;
+            &:hover{
+                border-bottom: 8px solid #AA0601;
+            }
+        }
+    }   
+}
