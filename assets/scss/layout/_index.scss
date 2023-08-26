@@ -57,8 +57,8 @@ h3{
             p{
                 color: #AA0601;
                 font: italic normal 900 48px/72px Roboto;
-                font-size: 48px;
-                font-size: clamp(24px, 4vw, 48px);
+                //font-size: 48px;
+                font-size: clamp(36px, 4vw, 48px);
             }
         }
     }
@@ -79,8 +79,7 @@ h3{
                 padding: 8px 0 8px;
                 color: #AA0601;
                 font: italic normal 900 48px/72px Roboto;
-                font-size: 48px;
-                //font-size: clamp(24px, 4vw, 48px);
+                font-size: clamp(36px, 4vw, 48px);
             }
         }
     }
@@ -163,6 +162,11 @@ h3{
             img {
                 width: 336px;  
             }
+            li{
+                p{
+                    font-size: 48px;
+                }
+            }
         }
     }
 
@@ -174,6 +178,9 @@ h3{
             gap:24px;
             li{
                 width:100%;
+                p{
+                    font-size: 48px;
+                }
             }
         }
     }
@@ -197,6 +204,79 @@ h3{
         }
         .btn-R{
             padding: 16px 136px;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .container{
+        max-width: 680px;
+        padding: 0px 14px;
+        h2{
+            font-size: 24px;
+            padding: 40px 0 24px;
+        }
+    }
+
+    .homepage-bg-top{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .homepage-top{
+            padding-top: 144px;
+            padding-bottom: 144px;
+            h1{
+                font-size: 16px;
+            }
+            p{
+                font-size: 24px;
+            }
+            .btn-R{
+                font-size: 20px;
+            }
+        }
+    }
+
+    .homepage-slogan{
+        ul{
+            li{
+                width:100%;
+            }
+        }
+    }
+
+    .homepage-classical{
+        .classical-card{
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .homepage-brand{
+        &-img1{
+            img{
+                content:url("https://github.com/InFannity/HexSchool-Week4/blob/main/assets/images/home-section4-1-sm.png?raw=true");
+            }
+       }
+       &-img2{
+            img{
+                content:url("https://github.com/InFannity/HexSchool-Week4/blob/main/assets/images/home-section4-2-sm.png?raw=true");
+            }
+        }
+    }
+
+    .homepage-recommand{
+        .recommand-card{
+            li{
+                width:100%;
+            }
+        }
+    }
+    
+    .homepage-contact{
+        .btn-R{
+            width: 100%;
         }
     }
 }

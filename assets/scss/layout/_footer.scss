@@ -24,10 +24,12 @@ footer{
   }
 
   .footer-mid-contact{
+    font-size: 36px;
     padding-bottom: 32px;
     border-bottom: 1px solid white;
     span{
       margin-right: 20px;
+      font-size: 36px;
       line-height: 1.5;
       vertical-align: middle;
     }
@@ -43,17 +45,66 @@ footer{
 
 @media (max-width: 768px) {
   footer{
-    .homepage-bg-top{
-        background-image:url("https://github.com/InFannity/HexSchool-Week4/blob/main/assets/images/home-header-sm.png?raw=true");
-    }
     .footer-upper{
       padding-bottom: 24px;
+      .menu-area{
+        width: 70%;
+        gap: 6%
+      }
       .icon-area{
         gap: 16px;
         img{
           display: inline-block;
           width: 40px;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  footer{
+    .container{
+      //max-width: 680px;
+      padding: 24px 14px 24px 14px;
+    }
+    .footer-over{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      border-bottom: 1px solid white;
+      padding-bottom: 24px;
+      .footer-upper{
+        padding: 0px;
+        align-items: start;
+        .menu-area{
+          display: none;
+        }
+        .icon-area{
+          padding: 0px;
+          img{
+            display: inline-block;
+            width: 24px;
+          }
+        }
+      }
+      .footer-mid-contact{
+        font-size: 16px;
+        border-bottom: 0px;
+        padding-bottom: 0px;
+        span{
+          font-size: 16px
+        }
+      }
+    }
+    .footer-bottom{
+      padding: 16px 0px 0px;
+      flex-direction: column;
+      gap: 8px;
+      ul{
+        gap: 8px;
+        flex-direction: column;
+        align-items: start;
       }
     }
   }
